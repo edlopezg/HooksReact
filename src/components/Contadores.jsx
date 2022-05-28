@@ -23,9 +23,9 @@ function Contadores() {
   <div className="style">
      <h1>{counterHook}</h1>
      {/* para todas las acciones que necesitemos que react realice utilizamos onClick */}
-     <button onClick={click}>Aumentar numero  </button> 
+     <button className='botonA' onClick={click}>Aumentar numero  </button> 
      <div>
-        <button onClick={click2}> Restar un numero </button>
+        <button className='botonD' onClick={click2}> Restar un numero </button>
      </div>
     
   
